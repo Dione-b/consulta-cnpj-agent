@@ -1,7 +1,7 @@
 # Configuração mínima do SearXNG para o agente: habilita a saída JSON.
 use_default_settings: true
 server:
-  secret_key: "troque-esta-chave-em-producao"
+  # secret_key vem da variável SEARXNG_SECRET (ver docker-compose.yml e .env).
   limiter: false
   image_proxy: false
 search:

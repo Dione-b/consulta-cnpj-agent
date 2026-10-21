@@ -26,7 +26,7 @@ ou, com `uv`: `uv sync --extra dev`.
 cp .env.example .env
 ```
 
-Busca web (SearXNG local, com saída JSON habilitada em `searxng/settings.yml`):
+Busca web (SearXNG local, com saída JSON habilitada em `searxng/settings.yml`). Defina antes `SEARXNG_SECRET` no `.env` (`openssl rand -hex 32`):
 
 ```bash
 docker compose up -d searxng

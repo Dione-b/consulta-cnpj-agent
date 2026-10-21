@@ -7,4 +7,5 @@ services:
       - ./searxng:/etc/searxng
     environment:
       - SEARXNG_BASE_URL=http://localhost:8080/
+      - SEARXNG_SECRET=${SEARXNG_SECRET:?defina SEARXNG_SECRET no .env}
     restart: unless-stopped
