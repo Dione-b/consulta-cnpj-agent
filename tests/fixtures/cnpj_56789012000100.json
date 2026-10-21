@@ -1,0 +1,18 @@
+{
+  "cnpj": "56789012000100",
+  "descricao_situacao_cadastral": "ATIVA",
+  "data_inicio_atividade": "2019-05-05",
+  "razao_social": "MARIA DA SILVA 12345678909",
+  "nome_fantasia": "DOCES DA MARIA",
+  "cnae_fiscal": 1091102,
+  "cnae_fiscal_descricao": "Fabricação de produtos de padaria e confeitaria",
+  "uf": "SP",
+  "municipio": "SAO PAULO",
+  "natureza_juridica": "Empresário (Individual)",
+  "codigo_natureza_juridica": 2135,
+  "opcao_pelo_mei": true,
+  "email": "contato@exemplo.com",
+  "ddd_telefone_1": "1199999999",
+  "logradouro": "RUA EXEMPLO",
+  "qsa": []
+}

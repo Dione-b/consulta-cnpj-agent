@@ -1,0 +1,42 @@
+{
+  "objectClassName": "domain",
+  "ldhName": "paginanova.com.br",
+  "events": [
+    {
+      "eventAction": "registration",
+      "eventDate": "2009-02-15T12:00:00Z"
+    },
+    {
+      "eventAction": "expiration",
+      "eventDate": "2030-01-01T00:00:00Z"
+    }
+  ],
+  "nameservers": [
+    {
+      "objectClassName": "nameserver",
+      "ldhName": "a.dns.br"
+    },
+    {
+      "objectClassName": "nameserver",
+      "ldhName": "b.dns.br"
+    }
+  ],
+  "entities": [
+    {
+      "roles": [
+        "registrant"
+      ],
+      "vcardArray": [
+        "vcard",
+        [
+          [
+            "fn",
+            {},
+            "text",
+            "PESSOA TITULAR"
+          ]
+        ]
+      ]
+    }
+  ]
+}

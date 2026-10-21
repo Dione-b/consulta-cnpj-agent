@@ -1,0 +1,24 @@
+{
+  "cnpj": "23456789000195",
+  "descricao_situacao_cadastral": "ATIVA",
+  "data_inicio_atividade": "2026-08-10",
+  "razao_social": "OFERTAS RELAMPAGO COMERCIO DIGITAL LTDA",
+  "nome_fantasia": "OFERTAS RELAMPAGO",
+  "cnae_fiscal": 4789099,
+  "cnae_fiscal_descricao": "Comércio varejista de outros produtos não especificados anteriormente",
+  "uf": "SP",
+  "municipio": "SAO PAULO",
+  "natureza_juridica": "Sociedade Empresária Limitada",
+  "codigo_natureza_juridica": 2062,
+  "opcao_pelo_mei": null,
+  "email": "contato@exemplo.com",
+  "ddd_telefone_1": "1199999999",
+  "logradouro": "RUA EXEMPLO",
+  "qsa": [
+    {
+      "nome_socio": "FULANO DE TAL",
+      "cnpj_cpf_do_socio": "***123456**",
+      "qualificacao_socio": "Sócio-Administrador"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[project]
+name = "checagem-vendedor"
+version = "0.1.0"
+description = "Agente que lista sinais de risco de um vendedor, com fonte, sem veredito."
+requires-python = ">=3.11"
+dependencies = [
+    "langgraph>=0.6",
+    "langchain>=1.0",
+    "langchain-openai>=0.3",
+    "pydantic>=2.7",
+    "httpx>=0.27",
+    "tenacity>=8.2",
+    "diskcache>=5.6",
+    "rapidfuzz>=3.9",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-asyncio>=0.23", "respx>=0.21"]
+langfuse = ["langfuse>=2"]
+
+[project.scripts]
+checagem = "checagem.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/checagem"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+# Um único event loop: o langchain-openai reaproveita um cliente HTTP global entre testes.
+asyncio_default_fixture_loop_scope = "session"
+asyncio_default_test_loop_scope = "session"
+markers = ["llm: usa um modelo real (precisa de OPENAI_API_KEY)"]
+addopts = "-m 'not llm'"

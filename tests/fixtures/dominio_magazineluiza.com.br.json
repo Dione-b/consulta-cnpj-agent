@@ -1,0 +1,42 @@
+{
+  "objectClassName": "domain",
+  "ldhName": "magazineluiza.com.br",
+  "events": [
+    {
+      "eventAction": "registration",
+      "eventDate": "1997-10-06T12:00:00Z"
+    },
+    {
+      "eventAction": "expiration",
+      "eventDate": "2030-01-01T00:00:00Z"
+    }
+  ],
+  "nameservers": [
+    {
+      "objectClassName": "nameserver",
+      "ldhName": "ns-303.awsdns-37.com"
+    },
+    {
+      "objectClassName": "nameserver",
+      "ldhName": "ns-1042.awsdns-02.org"
+    }
+  ],
+  "entities": [
+    {
+      "roles": [
+        "registrant"
+      ],
+      "vcardArray": [
+        "vcard",
+        [
+          [
+            "fn",
+            {},
+            "text",
+            "PESSOA TITULAR"
+          ]
+        ]
+      ]
+    }
+  ]
+}

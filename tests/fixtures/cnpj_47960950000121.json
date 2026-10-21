@@ -1,0 +1,24 @@
+{
+  "cnpj": "47960950000121",
+  "descricao_situacao_cadastral": "ATIVA",
+  "data_inicio_atividade": "1966-10-24",
+  "razao_social": "MAGAZINE LUIZA S/A",
+  "nome_fantasia": "MAGAZINE LUIZA",
+  "cnae_fiscal": 4713004,
+  "cnae_fiscal_descricao": "Lojas de departamentos ou magazines, exceto lojas francas (Duty free)",
+  "uf": "SP",
+  "municipio": "SAO PAULO",
+  "natureza_juridica": "Sociedade Anônima Aberta",
+  "codigo_natureza_juridica": 2046,
+  "opcao_pelo_mei": null,
+  "email": "contato@exemplo.com",
+  "ddd_telefone_1": "1199999999",
+  "logradouro": "RUA EXEMPLO",
+  "qsa": [
+    {
+      "nome_socio": "FULANO DE TAL",
+      "cnpj_cpf_do_socio": "***123456**",
+      "qualificacao_socio": "Sócio-Administrador"
+    }
+  ]
+}

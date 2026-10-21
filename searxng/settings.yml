@@ -1,0 +1,11 @@
+# Configuração mínima do SearXNG para o agente: habilita a saída JSON.
+use_default_settings: true
+server:
+  secret_key: "troque-esta-chave-em-producao"
+  limiter: false
+  image_proxy: false
+search:
+  safe_search: 1
+  formats:
+    - html
+    - json
